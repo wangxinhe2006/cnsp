@@ -1,4 +1,5 @@
 import json
+import re
 from urllib.request import urlopen
 from urllib.parse import urlencode
 
@@ -31,3 +32,14 @@ def baidu(q):
         ]
     except KeyError:
         return []
+
+
+def sogou(q):
+    'https://www.sogou.com/suggnew/ajajjson'
+    f = urlopen(
+        'https://www.sogou.com/suggnew/ajajjson'
+        f"?{urlencode({'key': q, 'type': 'web'})}"
+    )
+    return json.loads(
+        '[%s]' % re.fullmatch(r'window\.sogou\.sug\((.+)\);', f.read().decode(f.headers.get_content_charset())).group(1)
+    )[0][1]
