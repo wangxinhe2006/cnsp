@@ -7,3 +7,14 @@
 [![License](https://img.shields.io/github/license/wangxinhe2006/cnsp.svg)](LICENSE)
 
 Search predictions in mainland China
+
+## Installation
+```sh
+pip install cnsp
+```
+
+## Supported search engines
+- [谷歌 (Google.cn)](https://www.google.cn/)
+- [百度 (Baidu.com)](https://www.baidu.com/)
+- [360 搜索 (So.com)](https://www.so.com/)
+- [搜狗 (Sogou.com)](https://www.sogou.com/)
