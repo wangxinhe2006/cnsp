@@ -3,6 +3,8 @@ import re
 from urllib.request import urlopen
 from urllib.parse import urlencode
 
+__version__ = '0.0.1'
+
 
 def google(q):
     'https://www.google.cn/complete/search'

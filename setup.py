@@ -1,8 +1,9 @@
 import setuptools
+from cnsp import __version__
 
 setuptools.setup(
     name='cnsp',  # Replace with your own username
-    version='0.0.1',
+    version=__version__,
     author='汪心禾',
     author_email='wangxinhe06@gmail.com',
     description='Search predictions in mainland China',
