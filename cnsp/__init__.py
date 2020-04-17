@@ -46,3 +46,16 @@ def sogou(q):
             f.read().decode(f.headers.get_content_charset())
         ).group(1)
     )[0][1]
+
+
+def so(q):
+    'https://sug.so.360.cn/suggest'
+    f = urlopen(
+        'https://sug.so.360.cn/suggest'
+        f"?{urlencode({'format': 'json', 'word': q})}"
+    )
+    return [
+        p['word'] for p in json.loads(
+            f.read().decode(f.headers.get_content_charset())
+        )['result']
+    ]
