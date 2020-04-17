@@ -41,5 +41,8 @@ def sogou(q):
         f"?{urlencode({'key': q, 'type': 'web'})}"
     )
     return json.loads(
-        '[%s]' % re.fullmatch(r'window\.sogou\.sug\((.+)\);', f.read().decode(f.headers.get_content_charset())).group(1)
+        '[%s]' % re.fullmatch(
+            r'window\.sogou\.sug\((.+)\);',
+            f.read().decode(f.headers.get_content_charset())
+        ).group(1)
     )[0][1]
