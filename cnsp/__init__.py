@@ -14,3 +14,20 @@ def google(q):
             f.read().decode(f.headers.get_content_charset())
         )[1]
     ]
+
+
+def baidu(q):
+    'https://www.baidu.com/sugrec'
+    res = urlopen(
+        'https://www.baidu.com/sugrec'
+        f"?{urlencode({'json': '1', 'prod': 'pc', 'wd': q})}"
+    )
+    try:
+        return [
+            s['q']
+            for s in json.loads(
+                res.read().decode(res.headers.get_content_charset())
+            )['g'] if s['type'] == 'sug'
+        ]
+    except KeyError:
+        return []
