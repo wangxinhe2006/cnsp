@@ -23,6 +23,19 @@ def baidu(q):
         return []
 
 
+def sm(q):
+    'https://sugs.m.sm.cn/web'
+    f = urlopen(
+        'https://sugs.m.sm.cn/web'
+        f"?{urlencode({'q': q})}"
+    )
+    return [
+        p['w'] for p in json.loads(
+            f.read().decode(f.headers.get_content_charset())
+        )['r']
+    ]
+
+
 def sogou(q):
     'https://www.sogou.com/suggnew/ajajjson'
     f = urlopen(

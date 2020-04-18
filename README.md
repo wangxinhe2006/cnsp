@@ -15,6 +15,7 @@ pip install cnsp
 
 ## Supported search engines
 - [百度一下，你就知道 (Baidu.com)](https://www.baidu.com/)
+- [神马搜索 (m.Sm.cn)](https://m.sm.cn/)
 - [搜狗搜索引擎 - 上网从搜狗开始 (Sogou.com)](https://www.sogou.com/)
 - [360搜索，SO靠谱 (So.com)](https://www.so.com/)
 - [Google (Google.cn)](https://www.google.cn/)
