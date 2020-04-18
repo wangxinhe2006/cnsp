@@ -18,3 +18,4 @@ pip install cnsp
 - [百度 (Baidu.com)](https://www.baidu.com/)
 - [360 搜索 (So.com)](https://www.so.com/)
 - [搜狗 (Sogou.com)](https://www.sogou.com/)
+- [yam蕃薯藤-搜尋 (search.Yam.com)](https://search.yam.com/)

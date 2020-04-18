@@ -61,3 +61,15 @@ def sogou(q):
             f.read().decode(f.headers.get_content_charset())
         ).group(1)
     )[0][1]
+
+
+def yam(q):
+    'https://search.yam.com/Search/Mobile/GetRelatedKeywords.aspx'
+    f = urlopen(
+        'https://search.yam.com/Search/Mobile/GetRelatedKeywords.aspx'
+        f"?{urlencode({'k': q})}"
+    )
+    return re.findall(
+        r'<lable>(.+?)</lable>',
+        f.read().decode(f.headers.get_content_charset())
+    )
