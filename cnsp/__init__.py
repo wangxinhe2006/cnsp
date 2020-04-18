@@ -3,7 +3,7 @@ import re
 from urllib.request import urlopen
 from urllib.parse import urlencode
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 
 def baidu(q):
