@@ -8,7 +8,7 @@
 
 🎌 [🇺🇸English](README.md) | **🇨🇳大陆简体** | [🇭🇰香港繁體](README.zh_Hant_HK.md) | [🇹🇼臺灣正體](README.zh_Hant_TW.md)
 
-中国大陆可用的搜索联想查询
+中国大陆可用的搜索引擎联想查询
 
 ## 安装
 ```sh
