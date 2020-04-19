@@ -8,7 +8,7 @@
 
 🎌 [🇺🇸English](README.md) | **🇨🇳大陆简体** | [🇭🇰香港繁體](README.zh_Hant_HK.md) | [🇹🇼臺灣正體](README.zh_Hant_TW.md)
 
-中国大陆可用的搜索联想
+中国大陆可用的搜索联想查询
 
 ## 安装
 ```sh
@@ -27,8 +27,8 @@ pip install cnsp
 更多搜索引擎，见 [§支持的搜索引擎](#支持的搜索引擎)。
 
 ## 支持的搜索引擎
-函数 | 搜索引擎 | URL | 请求域名
----- | -------- | --- | --------
+函数 | 搜索引擎 | URL | 联想查询域名
+---- | -------- | --- | ------------
 `baidu` | 百度一下，你就知道 | https://www.baidu.com | `www.baidu.com`
 `sm` | 神马搜索 | https://m.sm.cn | `sugs.m.sm.cn`
 `sogou` | 搜狗搜索引擎 - 上网从搜狗开始 | https://www.sogou.com | `www.sogou.com`
