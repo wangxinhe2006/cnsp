@@ -6,7 +6,7 @@
 [![Wheel](https://img.shields.io/pypi/wheel/cnsp.svg)](https://pypi.org/project/cnsp/#files)
 [![License](https://img.shields.io/github/license/wangxinhe2006/cnsp.svg)](LICENSE)
 
-🎌 [English](README.md) | [大陆简体](README.zh_Hans_CN.md) | [香港繁體](README.zh_Hant_HK.md) | **臺灣正體**
+🎌 [🇺🇸English](README.md) | [🇨🇳大陆简体](README.zh_Hans_CN.md) | [🇭🇰香港繁體](README.zh_Hant_HK.md) | **🇹🇼臺灣正體**
 
 中國大陸的預測查詢字串
 

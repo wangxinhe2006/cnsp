@@ -6,7 +6,7 @@
 [![Wheel](https://img.shields.io/pypi/wheel/cnsp.svg)](https://pypi.org/project/cnsp/#files)
 [![License](https://img.shields.io/github/license/wangxinhe2006/cnsp.svg)](LICENSE)
 
-🎌 [English](README.md) | **大陆简体** | [香港繁體](README.zh_Hant_HK.md) | [臺灣正體](README.zh_Hant_TW.md)
+🎌 [🇺🇸English](README.md) | **🇨🇳大陆简体** | [🇭🇰香港繁體](README.zh_Hant_HK.md) | [🇹🇼臺灣正體](README.zh_Hant_TW.md)
 
 中国大陆可用的搜索联想
 
