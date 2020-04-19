@@ -31,5 +31,5 @@ Function | Search engine | URL | API domain
 `sm` | 神马搜索 | https://m.sm.cn | `sugs.m.sm.cn`
 `sogou` | 搜狗搜索引擎 - 上网从搜狗开始 | https://www.sogou.com | `www.sogou.com`
 `so` | 360搜索，SO靠谱 | https://www.so.com | `sug.so.360.cn`
-`google` | Google | https://www.google.cn | `www.google.cn`
+`google` | Google | https://www.google.com.hk | `www.google.cn`
 `yam` | yam蕃薯藤-搜尋 | https://search.yam.com | `search.yam.com`
