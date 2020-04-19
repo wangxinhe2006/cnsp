@@ -6,7 +6,7 @@
 [![Wheel](https://img.shields.io/pypi/wheel/cnsp.svg)](https://pypi.org/project/cnsp/#files)
 [![License](https://img.shields.io/github/license/wangxinhe2006/cnsp.svg)](LICENSE)
 
-🎌 **English** | [大陆简体](README.zh_Hans_CN.md)
+🎌 **English** | [大陆简体](README.zh_Hans_CN.md) | [香港繁體](README.zh_Hant_HK.md) | [臺灣正體](README.zh_Hant_TW.md)
 
 Search predictions in mainland China
 

@@ -1,21 +1,21 @@
 # cnsp
 [![Build Status](https://www.travis-ci.org/wangxinhe2006/cnsp.svg)](https://www.travis-ci.org/wangxinhe2006/cnsp)
-[![Python 版本](https://img.shields.io/pypi/pyversions/cnsp.svg)](https://www.python.org/downloads/)
+[![Python Version](https://img.shields.io/pypi/pyversions/cnsp.svg)](https://www.python.org/downloads/)
 [![GitHub pre-release](https://img.shields.io/github/release-pre/wangxinhe2006/cnsp.svg)](https://github.com/wangxinhe2006/cnsp/releases)
 [![PyPI](https://img.shields.io/pypi/v/cnsp.svg)](https://pypi.org/project/cnsp/#history)
 [![Wheel](https://img.shields.io/pypi/wheel/cnsp.svg)](https://pypi.org/project/cnsp/#files)
 [![License](https://img.shields.io/github/license/wangxinhe2006/cnsp.svg)](LICENSE)
 
-🎌 [English](README.md) | **大陆简体** | [香港繁體](README.zh_Hant_HK.md) | [臺灣正體](README.zh_Hant_TW.md)
+🎌 [English](README.md) | [大陆简体](README.zh_Hans_CN.md) | [香港繁體](README.zh_Hant_HK.md) | **臺灣正體**
 
-中国大陆可用的搜索联想
+中國大陸的預測查詢字串
 
-## 安装
+## 安裝
 ```sh
 pip install cnsp
 ```
 
-## 使用方法
+## 用法
 ```python
 >>> from cnsp import google, baidu
 >>> google('Google')
@@ -24,11 +24,11 @@ pip install cnsp
 ['百度翻译', '百度', '百度识图', '百度地图', '百度网盘', 'baidu.com', '百度翻译在线翻译', '百度贴吧', '百度网盘破解版开发者', '百度推荐为什么关不了']
 >>>
 ```
-更多搜索引擎，见 [§支持的搜索引擎](#支持的搜索引擎)。
+更多搜尋引擎，見 [§支持的搜尋引擎](#支持的搜尋引擎)。
 
-## 支持的搜索引擎
-函数 | 搜索引擎 | URL | 请求域名
----- | -------- | --- | --------
+## 支持的搜尋引擎
+函式 | 搜尋引擎 | URL | 預測查詢字串域名
+---- | -------- | --- | ---------------
 `baidu` | 百度一下，你就知道 | https://www.baidu.com | `www.baidu.com`
 `sm` | 神马搜索 | https://m.sm.cn | `sugs.m.sm.cn`
 `sogou` | 搜狗搜索引擎 - 上网从搜狗开始 | https://www.sogou.com | `www.sogou.com`
