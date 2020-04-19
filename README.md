@@ -25,11 +25,11 @@ pip install cnsp
 For more search engines, see [§Supported search engines](#supported-search-engines).
 
 ## Supported search engines
-Function | Search engine | URL | API URL
+Function | Search engine | URL | API domain
 -------- | ------------- | --- | ----------
-`baidu` | 百度一下，你就知道 | [www.baidu.com](https://www.baidu.com/) | `https://www.baidu.com/sugrec`
-`sm` | 神马搜索 | [m.sm.cn](https://m.sm.cn/) | `https://sugs.m.sm.cn/web`
-`sogou` | 搜狗搜索引擎 - 上网从搜狗开始 | [www.sogou.com](https://www.sogou.com/) | `https://www.sogou.com/suggnew/ajajjson`
-`so` | 360搜索，SO靠谱 | [www.so.com](https://www.so.com/) | `https://sug.so.360.cn/suggest`
-`google` | Google | [www.google.cn](https://www.google.cn/) | `https://www.google.cn/complete/search`
-`yam` | yam蕃薯藤-搜尋 | [search.yam.com](https://search.yam.com/) | `https://search.yam.com/Search/Mobile/GetRelatedKeywords.aspx`
+`baidu` | 百度一下，你就知道 | https://www.baidu.com | `www.baidu.com`
+`sm` | 神马搜索 | https://m.sm.cn | `sugs.m.sm.cn`
+`sogou` | 搜狗搜索引擎 - 上网从搜狗开始 | https://www.sogou.com | `www.sogou.com`
+`so` | 360搜索，SO靠谱 | https://www.so.com | `sug.so.360.cn`
+`google` | Google | https://www.google.cn | `www.google.cn`
+`yam` | yam蕃薯藤-搜尋 | https://search.yam.com | `search.yam.com`
