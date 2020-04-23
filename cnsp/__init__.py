@@ -1,9 +1,10 @@
 import json
 import re
-from urllib.request import urlopen
+from urllib.error import HTTPError
 from urllib.parse import urlencode
+from urllib.request import urlopen
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 
 def baidu(q):
@@ -42,12 +43,15 @@ def sogou(q):
         'https://www.sogou.com/suggnew/ajajjson'
         f"?{urlencode({'key': q, 'type': 'web'})}"
     )
-    return json.loads(
-        '[%s]' % re.fullmatch(
-            r'window\.sogou\.sug\((.+)\);',
-            f.read().decode(f.headers.get_content_charset())
-        ).group(1)
-    )[0][1]
+    try:
+        return json.loads(
+            '[%s]' % re.fullmatch(
+                r'window\.sogou\.sug\((.+)\);',
+                f.read().decode(f.headers.get_content_charset())
+            ).group(1)
+        )[0][1]
+    except HTTPError:
+        return []
 
 
 def so(q):
